@@ -1,4 +1,4 @@
-# Brain Tumor Diagnosis System
+# NeuroPulse AI: Advanced Neuroimaging & Tumor Diagnosis
 
 **Customer**: Wisio, Hong Kong  
 
