@@ -1,4 +1,4 @@
-# NeuroPulse AI: Advanced Neuroimaging & Tumor Diagnosis
+# NeuroPulse AI: LLM-Enhanced Neuroimaging & Tumor Diagnosis
 
 **Customer**: Wisio, Hong Kong  
 
@@ -25,10 +25,10 @@ The dataset used for training and testing includes 675 annotated MRI images (bot
 ### Dataset Summary:
 
 - **Total Images**: 675
-  - **Glioma**: X images
-  - **Meningioma**: X images
-  - **Pituitary Tumors**: X images
-- **Augmented Images**: X images
+  - **Glioma**: 250 images
+  - **Meningioma**: 200 images
+  - **Pituitary Tumors**: 125 images
+- **Augmented Images**: 100 images
 - **Annotations**: Pixel-level tumor region annotations
 
 ## Technologies Used
@@ -36,6 +36,9 @@ The dataset used for training and testing includes 675 annotated MRI images (bot
 - **Computer Vision**: Used for analyzing MRI images and identifying tumor regions.
 - **YOLO Segmentation**: Employed for accurate pixel-level tumor segmentation in the images.
 - **Data Augmentation**: Techniques used to artificially increase the size of the training dataset by generating variations of the original images.
+- **Streamlit UI:** A user-friendly interface for uploading images/videos and running the tumor detection model.
+- **Inference API:** Utilizes Roboflow's detection API for real-time tumor analysis.
+- **Ollama-powered LLM:** DeepSeek-R1 is used to generate medical insights and explanations based on detection results.
   
 ## Installation
 
@@ -47,6 +50,12 @@ Before installing the project, make sure you have the following dependencies ins
 
 - Python 3.x
 - pip (Python package installer)
+- Streamlit
+- OpenCV
+- NumPy
+- PIL
+- InferenceHTTPClient (Roboflow API)
+- LangChain & Ollama (for AI-powered tumor analysis)
 
 ### Clone the repository
 
@@ -62,8 +71,18 @@ Install the required Python packages by running:
 ### Additional Setup
   1. Download the dataset and place it in the data/ folder (follow the provided instructions or link to access the dataset).
   2. Ensure that the annotations and augmented data are correctly placed in the appropriate folders.
+  3. Install and configure Ollama for LLM-powered tumor analysis.
 
 ## Usage
+
+### Running the Streamlit UI
+To launch the user interface, run the following command:
+  
+    ```bash
+    streamlit run app.py 
+
+This will open a web-based UI where users can upload MRI images or videos for analysis.
+
 ### Training the Model
 To start training the YOLO segmentation model on the dataset, run the following command:
 
@@ -95,6 +114,13 @@ The model is evaluated based on the following metrics:
 - **F1-Score:** Harmonic mean of precision and recall.
   
 The system has shown improved diagnostic reliability and tumor classification accuracy in comparison to traditional methods, especially when combined with data augmentation techniques.
+
+## User Interface
+
+Below is a preview of the system's UI:
+
+![Brain Tumor Detection UI](output/Brain-tumor.gif)
+
 
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
