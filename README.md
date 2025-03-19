@@ -60,7 +60,7 @@ Before installing the project, make sure you have the following dependencies ins
 ### Clone the repository
 
     ```bash
-    git clone https://github.com/Dr-irshad/NeuroPulse-AI-Advanced-Neuroimaging-Tumor-Diagnosis.git
+    git clone https://github.com/Dr-irshad/NeuroPulse AI: LLM-Enhanced Neuroimaging & Tumor Diagnosis.git
     cd brain-tumor-diagnosis-system
 
 ### Install dependencies
