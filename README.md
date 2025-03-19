@@ -95,7 +95,7 @@ This command will train the model for 50 epochs with a batch size of 16. You can
 Once training is complete, you can test the model on new images by running:
 
       ```bash
-      python test.py --model_path ./model_weights/best_model.pth --test_images ./test_images/
+      python test.py --model_path ./model_weights/best.pt --test_images ./test_images/
 
 This will load the trained model and run predictions on the test images stored in the test_images/ folder.
 
@@ -103,7 +103,7 @@ This will load the trained model and run predictions on the test images stored i
 The system provides evaluation metrics such as accuracy, precision, recall, and F1-score to assess the model's performance on the test dataset.
     
     ```bash
-    python evaluate.py --model_path ./model_weights/best_model.pth --test_images ./test_images/
+    python evaluate.py --model_path ./model_weights/best.pt --test_images ./test_images/
 
 ### Results
 The model is evaluated based on the following metrics:
