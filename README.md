@@ -60,7 +60,7 @@ Before installing the project, make sure you have the following dependencies ins
 ### Clone the repository
 
     ```bash
-    git clone https://github.com/Dr-irshad/NeuroPulse AI: LLM-Enhanced Neuroimaging & Tumor Diagnosis.git
+    git clone https://github.com/Dr-irshad/NeuroPulse-AI-LLM-Enhanced-Neuroimaging-Tumor-Diagnosis.git
     cd brain-tumor-diagnosis-system
 
 ### Install dependencies
@@ -79,7 +79,7 @@ Install the required Python packages by running:
 To launch the user interface, run the following command:
   
     ```bash
-    streamlit run app.py 
+    streamlit run app-BT.py 
 
 This will open a web-based UI where users can upload MRI images or videos for analysis.
 
