@@ -1,9 +1,7 @@
 # NeuroPulse AI: LLM-Enhanced Neuroimaging & Tumor Diagnosis
 
 **Customer**: Wisio, Hong Kong  
-**Collaborators**:  
-- [Dr-irshad](https://github.com/Dr-irshad)  
-- [Umarfarooq](https://github.com/imumarfarooq)
+**Collaborators**:  [Dr-Irshad Ibrahim](https://github.com/Dr-irshad) and [Umar Farooq](https://github.com/imumarfarooq)
 
 ## Overview
 
