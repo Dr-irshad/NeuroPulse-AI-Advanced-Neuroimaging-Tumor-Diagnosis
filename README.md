@@ -61,7 +61,7 @@ Before installing the project, make sure you have the following dependencies ins
 
     ```bash
     git clone https://github.com/Dr-irshad/NeuroPulse-AI-LLM-Enhanced-Neuroimaging-Tumor-Diagnosis.git
-    cd brain-tumor-diagnosis-system
+    cd NeuroPulse-AI-LLM-Enhanced-Neuroimaging-Tumor-Diagnosis
 
 ### Install dependencies
 Install the required Python packages by running:
