@@ -20,10 +20,7 @@
 
 ## 🧠 Overview
 
-This repository presents a **Hybrid Deep Learning and LLM Architecture** for automated medical image segmentation and pre-diagnosis generation.  
-The framework integrates **YOLOv8-Attention–based detection** with **LLM-powered diagnostic reasoning (DeepSeek-R1 via Ollama)** to perform end-to-end tumor analysis in neuroimaging.
-
-By combining **visual intelligence (deep learning)** with **contextual understanding (language models)**, this system delivers interpretable medical insights directly from MRI scans.
+This repository presents a **Hybrid Deep Learning and LLM Architecture** for automated medical image segmentation and pre-diagnosis generation. The framework integrates **YOLOv8-Attention–based detection** with **LLM-powered diagnostic reasoning (DeepSeek-R1 via Ollama)** to perform end-to-end tumor analysis in neuroimaging. By combining **visual intelligence (deep learning)** with **contextual understanding (language models)**, this system delivers interpretable medical insights directly from MRI scans.
 
 ---
 
